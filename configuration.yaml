@@ -1,5 +1,10 @@
 homeassistant: !include core.yaml
 
+http:
+  server_port: !secret appliance_server_port
+
+frontend:
+
 sleepiq: !include sleepiq.yaml
 neato: !include neato.yaml
 litter_robot: !include litter_robot.yaml
