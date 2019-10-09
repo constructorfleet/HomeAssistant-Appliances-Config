@@ -1,4 +1,9 @@
-homeassistant: !include core.yaml
+homeassistant:
+  longitude: !secret home_longitude
+  elevation: !secret home_elevation
+  unit_system: imperial
+  time_zone: !secret home_timezone
+  name: Appliances
 
 http:
   server_port: !secret appliance_server_port
