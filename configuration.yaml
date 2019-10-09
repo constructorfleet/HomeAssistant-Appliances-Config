@@ -6,9 +6,6 @@ homeassistant:
   time_zone: !secret home_timezone
   name: Appliances
 
-http:
-  server_port: !secret appliance_server_port
-
 frontend:
 
 sleepiq: !include sleepiq.yaml
