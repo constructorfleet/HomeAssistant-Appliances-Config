@@ -1,3 +1,6 @@
 [submodule "custom_components/litter_robot"]
 	path = custom_components/litter_robot
 	url = https://github.com/constructorfleet/HomeAssistant-Component-LitterRobot.git
+[submodule "custom_components/view_event"]
+	path = custom_components/view_event
+	url = https://github.com/constructorfleet/HomeAssistant-Component-ViewEvent.git
