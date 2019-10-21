@@ -30,5 +30,5 @@ frontend:
 config:
 
 sleepiq: !include sleepiq.yaml
-neato: !include neato.yaml
+neato_fix: !include neato.yaml
 litter_robot: !include litter_robot.yaml
