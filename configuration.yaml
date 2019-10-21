@@ -15,7 +15,7 @@ homeassistant:
     - type: homeassistant
 
 view_event:
-  name: appliacnes
+  instance_name: appliacnes
   components:
     - camera
     - neato
