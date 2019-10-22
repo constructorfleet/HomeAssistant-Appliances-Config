@@ -24,7 +24,8 @@ class NeatoConfigFlow(config_entries.ConfigFlow, domain=NEATO_DOMAIN):
     VERSION = 1
     CONNECTION_CLASS = config_entries.CONN_CLASS_CLOUD_POLL
 
-    def __init_subclass__(self, **kwargs)
+    @classmethod
+    def __init_subclass__(cls, **kwargs)
         super().__init__(**kwargs)
 
     def __init__(self):
