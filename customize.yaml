@@ -1,0 +1,4 @@
+binary_sensor.sleepnumber_teagan_grace_is_in_bed:
+  friendly_name: Bed Right Side
+binary_sensor.sleepnumber_teagan_teagan_is_in_bed:
+  friendly_name: Bed Left Side
