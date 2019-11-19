@@ -1,4 +1,12 @@
 binary_sensor.sleepnumber_teagan_grace_is_in_bed:
   friendly_name: Bed Right Side
+  device_class: vibration
 binary_sensor.sleepnumber_teagan_teagan_is_in_bed:
   friendly_name: Bed Left Side
+  device_class: vibration
+sensor.sleepnumber_teagan_grace_sleepnumber:
+  friendly_name: Bed Right Side Firmness
+  icon: mdi:percent
+sensor.sleepnumber_teagan_teagan_sleepnumber:
+  friendly_name: Bed Left Side Firmness
+  icon: mdi:percent
