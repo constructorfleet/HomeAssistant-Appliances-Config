@@ -30,7 +30,7 @@ frontend:
 
 config:
 
-mopar:
+uconnect:
   username: !secret alan_uconnect_username
   password: !secret alan_uconnect_password
   pin: !secret alan_uconnect_pin
