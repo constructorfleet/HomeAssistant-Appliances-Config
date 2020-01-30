@@ -1,0 +1,5 @@
+----
+
+username: !secret alan_uconnect_username
+password: !secret alan_uconnect_password
+pin: !secrete alan_uconnect_pin

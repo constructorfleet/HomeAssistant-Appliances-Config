@@ -30,6 +30,8 @@ frontend:
 
 config:
 
+mopar: !include alan_mopar.yaml
+
 sleepiq: !include sleepiq.yaml
 neato: !include neato.yaml
 litter_robot: !include litter_robot.yaml
