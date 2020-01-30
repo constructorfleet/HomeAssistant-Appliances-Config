@@ -1,7 +1,7 @@
 """Support for the Mopar vehicle switch."""
 import logging
 
-from homeassistant.components.mopar import DOMAIN as MOPAR_DOMAIN
+from homeassistant.components.uconnect import DOMAIN as MOPAR_DOMAIN
 from homeassistant.components.switch import SwitchDevice
 from homeassistant.const import STATE_OFF, STATE_ON
 

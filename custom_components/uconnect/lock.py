@@ -2,7 +2,7 @@
 import logging
 
 from homeassistant.components.lock import LockDevice
-from homeassistant.components.mopar import DOMAIN as MOPAR_DOMAIN
+from homeassistant.components.uconnect import DOMAIN as MOPAR_DOMAIN
 from homeassistant.const import STATE_LOCKED, STATE_UNLOCKED
 
 _LOGGER = logging.getLogger(__name__)

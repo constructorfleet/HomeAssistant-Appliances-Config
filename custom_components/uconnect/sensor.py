@@ -1,5 +1,5 @@
 """Support for the Mopar vehicle sensor platform."""
-from homeassistant.components.mopar import (
+from homeassistant.components.uconnnect import (
     ATTR_VEHICLE_INDEX,
     DATA_UPDATED,
     DOMAIN as MOPAR_DOMAIN,

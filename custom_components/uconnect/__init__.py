@@ -19,7 +19,7 @@ from homeassistant.helpers.discovery import load_platform
 from homeassistant.helpers.dispatcher import dispatcher_send
 from homeassistant.helpers.event import track_time_interval
 
-DOMAIN = "mopar"
+DOMAIN = "uconnect"
 DATA_UPDATED = f"{DOMAIN}_data_updated"
 
 _LOGGER = logging.getLogger(__name__)
