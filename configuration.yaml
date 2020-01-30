@@ -30,7 +30,10 @@ frontend:
 
 config:
 
-mopar: !include alan_mopar.yaml
+mopar:
+  username: !secret alan_uconnect_username
+  password: !secret alan_uconnect_password
+  pin: !secret alan_uconnect_pin
 
 sleepiq: !include sleepiq.yaml
 neato: !include neato.yaml
