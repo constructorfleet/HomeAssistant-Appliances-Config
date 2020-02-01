@@ -15,12 +15,12 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-view_event:
-  name: appliacnes
-  components:
-    - camera
-    - neato
-    - sleepiq
+# view_event:
+#   name: appliacnes
+#   components:
+#     - camera
+#     - neato
+#     - sleepiq
 
 http:
   base_url: https://automation.prettybaked.com
