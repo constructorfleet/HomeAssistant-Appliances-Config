@@ -35,4 +35,5 @@ neato: !include neato.yaml
 litter_robot: !include litter_robot.yaml
 
 mqtt: !include mqtt.yaml
-mqtteventstream: !include eventstream.yaml
+# mqtteventstream: !include eventstream.yaml
+mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
