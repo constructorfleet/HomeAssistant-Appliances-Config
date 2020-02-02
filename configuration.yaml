@@ -23,7 +23,7 @@ homeassistant:
 #     - sleepiq
 
 http:
-  base_url: http://appliances.constructorfleet.iot:3000
+  base_url: http://appliances.constructorfleet.iot
   
 frontend:
 
