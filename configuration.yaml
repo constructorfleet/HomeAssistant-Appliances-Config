@@ -23,8 +23,7 @@ homeassistant:
 #     - sleepiq
 
 http:
-#  base_url: https://automation.prettybaked.com
-#  server_port: !secret appliances_server_public_port
+  base_url: http://appliances.constructorfleet.iot:3000
   
 frontend:
 
