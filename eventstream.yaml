@@ -1,6 +1,7 @@
 name: appliances
 publish_topic: events/slaves/appliances
 subscribe_topic: events/master
+public_state_topic_base: states
 ignore_event:
   - call_service
   - component_loaded
