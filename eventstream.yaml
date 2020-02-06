@@ -1,4 +1,4 @@
-name: Appliances
+name: appliances
 publish_topic: events/slaves/appliances
 subscribe_topic: events/master
 ignore_event:
