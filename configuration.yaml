@@ -23,7 +23,7 @@ homeassistant:
 #     - sleepiq
 
 http:
-  base_url: http://appliances.constructorfleet.iot
+  base_url: https://appliances.automation.home.prettybaked.com
   
 frontend:
 
