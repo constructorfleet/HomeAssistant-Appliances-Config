@@ -15,12 +15,7 @@ homeassistant:
       allow_bypass_login: true
     - type: homeassistant
 
-# view_event:
-#   name: appliacnes
-#   components:
-#     - camera
-#     - neato
-#     - sleepiq
+view_event: !include view_event.yaml
 
 http:
   base_url: https://appliances.automation.home.prettybaked.com
@@ -35,5 +30,4 @@ litter_robot: !include litter_robot.yaml
 
 mqtt: !include mqtt.yaml
 mqtteventstream: !include eventstream.yaml
-# mqtt_remoteinstance: !include mqtt_remoteinstance.yaml
 
