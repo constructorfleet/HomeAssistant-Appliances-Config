@@ -19,5 +19,7 @@ will_message:
   payload: >
     {
       "event_type": "instance_state.disconnected",
-      "event_data": "appliances"
+      "event_data": {
+        "instance_name": "appliances"
+      }
     }
